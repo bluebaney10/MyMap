@@ -20,7 +20,7 @@ const OVERLAY_TOP_LEFT_COORDINATE = [35.68184060244454, 139.76531982421875];
 const OVERLAY_BOTTOM_RIGHT_COORDINATE = [35.679609609368576, 139.76806640625];
 const IMAGE = flagPinkImg;
 
-export default class ImageOverlayWithURL extends Component {
+export default class ImageOverlayWithAssets extends Component {
 
   static propTypes = {
     provider: MapView.ProviderPropType,
